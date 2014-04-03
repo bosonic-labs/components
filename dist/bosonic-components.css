@@ -1,3 +1,14 @@
+b-collapsible {
+  display: block;
+}
+
+.b-collapsible-closed {
+  display: none;
+}
+
+.b-collapsible-body {
+  height: 0;
+}
 b-datalist {
   display: none;
 }

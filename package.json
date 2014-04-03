@@ -1,6 +1,6 @@
 {
   "name": "bosonic-components",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Bosonic Components ========",
   "main": "Gruntfile.js",
   "scripts": {
@@ -8,14 +8,15 @@
   },
   "devDependencies": {
     "bosonic-test-tools": "*",
-    "grunt-bosonic": "*"
+    "grunt-bosonic": ">=0.4.0"
   },
   "dependencies": {
-    "bosonic": "*",
-    "b-dialog": "0.1.*",
-    "b-datalist": "0.1.*",
-    "b-selectable": "0.1.*",
-    "b-datepicker": "0.1.*",
-    "b-sortable": "0.1.*"
+    "bosonic": ">=0.4.0",
+    "b-dialog": "0.2.*",
+    "b-datalist": "0.2.*",
+    "b-selectable": "0.2.*",
+    "b-datepicker": "0.2.*",
+    "b-sortable": "0.2.*",
+    "b-collapsible": "0.2.*"
   }
 }
