@@ -2,6 +2,16 @@
 
 module.exports = function(grunt) {
 
+  var elements = [
+    'node_modules/b-dialog/src/*.html',
+    'node_modules/b-datalist/src/*.html',
+    'node_modules/b-selectable/src/*.html',
+    'node_modules/b-datepicker/src/*.html',
+    'node_modules/b-sortable/src/*.html',
+    'node_modules/b-collapsible/src/*.html',
+    'node_modules/b-accordion/src/*.html'
+  ];
+
   grunt.initConfig({
 
     clean: {
@@ -10,7 +20,7 @@ module.exports = function(grunt) {
 
     bosonic: {
       components: {
-        src: ['node_modules/b-*/src/*.html'],
+        src: elements,
         css: 'dist/bosonic-components.css',
         js:  'dist/bosonic-components.js'
       }
