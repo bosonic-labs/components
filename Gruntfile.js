@@ -10,7 +10,9 @@ module.exports = function(grunt) {
     'node_modules/b-sortable/src/*.html',
     'node_modules/b-collapsible/src/*.html',
     'node_modules/b-accordion/src/*.html',
-    'node_modules/b-tooltip/src/*.html'
+    'node_modules/b-tooltip/src/*.html',
+    'node_modules/b-draggable/src/*.html',
+    'node_modules/b-resizer/src/*.html'
   ];
 
   grunt.initConfig({
