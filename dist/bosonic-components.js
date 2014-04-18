@@ -4664,9 +4664,7 @@
                 }
             }
         });
-    window.BAccordion = document.registerElement('b-accordion', {
-        prototype: BAccordionPrototype
-    });
+    window.BAccordion = document.registerElement('b-accordion', { prototype: BAccordionPrototype });
     Object.defineProperty(BAccordion.prototype, '_super', {
         enumerable: false,
         writable: false,

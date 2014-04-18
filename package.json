@@ -1,6 +1,6 @@
 {
   "name": "bosonic-components",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Bosonic Components ========",
   "main": "Gruntfile.js",
   "scripts": {
@@ -20,6 +20,8 @@
     "b-sortable": "0.2.*",
     "b-collapsible": "0.2.*",
     "b-accordion": "0.2.*",
-    "b-tooltip": "0.1.*"
+    "b-tooltip": "0.1.*",
+    "b-draggable": "0.2.*",
+    "b-resizer": "0.1.*"
   }
 }
