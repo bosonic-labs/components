@@ -1,18 +1,18 @@
 {
   "name": "bosonic-components",
-  "version": "0.3.0",
-  "description": "Bosonic Components ========",
+  "version": "0.3.1",
+  "description": "bosonic-components has been deprecated. Use bosonic-core-elements instead.",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "bosonic-test-tools": "*",
-    "grunt-bosonic": ">=0.4.0",
+    "grunt-bosonic": "~0.4.0",
     "grunt-contrib-uglify": "^0.4.0"
   },
   "dependencies": {
-    "bosonic": ">=0.4.0",
+    "bosonic": "~0.4.0",
     "b-dialog": "0.2.*",
     "b-datalist": "0.2.*",
     "b-selectable": "0.2.*",
